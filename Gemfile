@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -12,11 +14,11 @@ gem 'font-awesome-rails'
 gem 'jbuilder'
 gem 'jsbundling-rails'
 gem 'pg', '~> 1.1'
+gem 'propshaft'
 gem 'rails', '~> 7.0.3', '>= 7.0.3.1'
 gem 'rails-i18n'
 gem 'redis', '~> 4.0'
 gem 'slim-rails'
-gem 'propshaft'
 gem 'stimulus-rails'
 gem 'turbo-rails'
 
